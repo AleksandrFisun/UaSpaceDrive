@@ -1,13 +1,13 @@
 import persistReducer from 'redux-persist/es/persistReducer';
 import storage from 'redux-persist/lib/storage';
-import authReducer from './auth/authSlice';
+import advertsReducer from './adverts/advertsSlice';
 
-const authPersistConfig = {
-  key: 'auth',
+const advertsPersistConfig = {
+  key: 'adverts',
   storage,
-  whitelist: ['token', 'refreshToken'],
+  whitelist: [''],
 };
 
 export const reducer = {
-  auth: persistReducer(authPersistConfig, authReducer),
+  adverts: persistReducer(advertsPersistConfig, advertsReducer),
 };

@@ -1,0 +1,148 @@
+.cartCar {
+  display: grid;
+  gap: 50px 29px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-bottom: 100px;
+  @include minSm() {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include minLg() {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  &Item {
+    width: 274px;
+  }
+  &ImgWr {
+    margin-bottom: 14px;
+    position: relative;
+    width: 100%;
+    height: 248px;
+    background: linear-gradient(
+      180deg,
+      rgba(18, 20, 23, 0.5) 2.5%,
+      rgba(18, 20, 23, 0) 41.07%
+    );
+    border-radius: 14px;
+    @include minLg() {
+      height: 268px;
+    }
+  }
+  &Img {
+    width: 100%;
+    height: 248px;
+    object-fit: cover;
+    object-position: center;
+    background: color(background-cart);
+    border-radius: 14px;
+
+    @include minLg() {
+      height: 268px;
+    }
+    &Heart {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: transparent;
+      border: none;
+      padding: 10px;
+      & svg path {
+        transition: $transition;
+      }
+      &:hover,
+      &:focus {
+        & svg path {
+          stroke: color(button-primary);
+        }
+      }
+    }
+  }
+  &Model {
+    &Wr {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    &Name {
+      color: color(text-primary);
+      font-family: map-get($fonts, m);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    &NameAccent {
+      color: color(button-primary);
+    }
+    &Price {
+      margin-right: 10px;
+      color: color(text-primary);
+      font-family: map-get($fonts, m);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+  &Description {
+    color: rgba(18, 20, 23, 0.5);
+    font-family: map-get($fonts, r);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    &Wr {
+      margin-bottom: 28px;
+    }
+  }
+  &ModelButton {
+    width: 100%;
+    padding: 12px 20px;
+
+    color: color(background-primary);
+    font-family: map-get($fonts, b);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: color(button-primary);
+    border: 1px solid color(button-primary);
+    border-radius: 12px;
+    transition: $transition;
+    &:active {
+      background-color: color(button-accent);
+    }
+    @include minMd() {
+      &:hover,
+      &:focus {
+        background-color: color(button-accent);
+      }
+    }
+  }
+}
+.loadMoreCarWr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.loadMoreCar {
+  color: color(button-primary);
+  font-family: map-get($fonts, m);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+  &:active {
+    color: color(button-accent);
+  }
+  @include minMd() {
+    &:hover,
+    &:focus {
+      color: color(button-accent);
+    }
+  }
+}
