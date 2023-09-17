@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/AleksandrFisun/UaSpaceDrive.git/static/css/main.3d1e77c3.css",
-    "main.js": "/AleksandrFisun/UaSpaceDrive.git/static/js/main.dc6ee8a6.js",
-    "static/js/128.08853c4f.chunk.js": "/AleksandrFisun/UaSpaceDrive.git/static/js/128.08853c4f.chunk.js",
-    "static/js/497.4ecb71ac.chunk.js": "/AleksandrFisun/UaSpaceDrive.git/static/js/497.4ecb71ac.chunk.js",
-    "static/js/859.d21dcc03.chunk.js": "/AleksandrFisun/UaSpaceDrive.git/static/js/859.d21dcc03.chunk.js",
-    "static/js/853.ae6b9a5b.chunk.js": "/AleksandrFisun/UaSpaceDrive.git/static/js/853.ae6b9a5b.chunk.js",
-    "static/media/Manrope-SemiBold.ttf": "/AleksandrFisun/UaSpaceDrive.git/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
-    "static/media/Manrope-Medium.ttf": "/AleksandrFisun/UaSpaceDrive.git/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
-    "static/media/Manrope-Regular.ttf": "/AleksandrFisun/UaSpaceDrive.git/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
-    "index.html": "/AleksandrFisun/UaSpaceDrive.git/index.html",
-    "main.3d1e77c3.css.map": "/AleksandrFisun/UaSpaceDrive.git/static/css/main.3d1e77c3.css.map",
-    "main.dc6ee8a6.js.map": "/AleksandrFisun/UaSpaceDrive.git/static/js/main.dc6ee8a6.js.map",
-    "128.08853c4f.chunk.js.map": "/AleksandrFisun/UaSpaceDrive.git/static/js/128.08853c4f.chunk.js.map",
-    "497.4ecb71ac.chunk.js.map": "/AleksandrFisun/UaSpaceDrive.git/static/js/497.4ecb71ac.chunk.js.map",
-    "859.d21dcc03.chunk.js.map": "/AleksandrFisun/UaSpaceDrive.git/static/js/859.d21dcc03.chunk.js.map",
-    "853.ae6b9a5b.chunk.js.map": "/AleksandrFisun/UaSpaceDrive.git/static/js/853.ae6b9a5b.chunk.js.map"
+    "main.css": "/UaSpaceDrive/static/css/main.5299a421.css",
+    "main.js": "/UaSpaceDrive/static/js/main.815f2690.js",
+    "static/js/128.08853c4f.chunk.js": "/UaSpaceDrive/static/js/128.08853c4f.chunk.js",
+    "static/js/497.4ecb71ac.chunk.js": "/UaSpaceDrive/static/js/497.4ecb71ac.chunk.js",
+    "static/js/859.d21dcc03.chunk.js": "/UaSpaceDrive/static/js/859.d21dcc03.chunk.js",
+    "static/js/853.ae6b9a5b.chunk.js": "/UaSpaceDrive/static/js/853.ae6b9a5b.chunk.js",
+    "static/media/Manrope-SemiBold.ttf": "/UaSpaceDrive/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/UaSpaceDrive/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/UaSpaceDrive/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "index.html": "/UaSpaceDrive/index.html",
+    "main.5299a421.css.map": "/UaSpaceDrive/static/css/main.5299a421.css.map",
+    "main.815f2690.js.map": "/UaSpaceDrive/static/js/main.815f2690.js.map",
+    "128.08853c4f.chunk.js.map": "/UaSpaceDrive/static/js/128.08853c4f.chunk.js.map",
+    "497.4ecb71ac.chunk.js.map": "/UaSpaceDrive/static/js/497.4ecb71ac.chunk.js.map",
+    "859.d21dcc03.chunk.js.map": "/UaSpaceDrive/static/js/859.d21dcc03.chunk.js.map",
+    "853.ae6b9a5b.chunk.js.map": "/UaSpaceDrive/static/js/853.ae6b9a5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1e77c3.css",
-    "static/js/main.dc6ee8a6.js"
+    "static/css/main.5299a421.css",
+    "static/js/main.815f2690.js"
   ]
 }
