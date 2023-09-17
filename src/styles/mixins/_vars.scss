@@ -1,0 +1,27 @@
+$colors: (
+  button-accent: #0b44cd,
+  button-primary: #3470ff,
+
+  background-accent: #f7f7fb,
+  background-primary: #ffffff,
+
+  background-secondary: rgba(18, 20, 23, 0.9),
+  text-accent: #3470ff,
+  text-primary: #121417,
+  text-secondary: rgba(18, 20, 23, 0.5),
+  text-label: #8a8a89,
+);
+$maxWidthContent: 1216px;
+$maxWidthContentMobile: 600px;
+$max-width-content: 1218px;
+
+@function color($colorSelect) {
+  @return map_get($colors, $colorSelect);
+}
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
+$fonts: (
+  r: 'Manrope-Regular',
+  m: 'Manrope-Medium',
+  b: 'Manrope-SemiBold',
+);

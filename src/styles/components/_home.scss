@@ -1,0 +1,144 @@
+.HeroWr {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 15px;
+  @include minMd() {
+    height: 450px;
+  }
+  @include minLg() {
+    height: 550px;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(30, 30, 30, 0.7) 0%,
+      rgba(30, 30, 30, 0.8) 32.41%,
+      rgba(30, 30, 30, 0.8) 62.1%,
+      rgba(30, 30, 30, 0.7) 100%
+    );
+  }
+}
+.HeroImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.HeroText {
+  position: absolute;
+  z-index: 10;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  padding: 0 15px;
+  max-width: 320px;
+
+  font-family: map-get($fonts, b);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: color(background-accent);
+  @include minMd() {
+    font-size: 32px;
+  }
+}
+.Advantages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &Wr {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin-bottom: 30px;
+
+    @include minSm() {
+      justify-content: space-between;
+    }
+  }
+  &Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    margin-bottom: 20px;
+    @include minLg() {
+      width: 320px;
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+    &:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+  &FImage {
+    margin-bottom: 8px;
+    & svg {
+      width: 30px;
+      height: 30px;
+      fill: color(text-accent);
+      @include minMd() {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  &FImageP {
+    margin-bottom: 8px;
+    & svg {
+      width: 30px;
+      height: 30px;
+      stroke: color(text-accent);
+      @include minMd() {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  &FText {
+    padding: 0 10px;
+    font-family: map-get($fonts, m);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+  &FTextSecond {
+    font-family: map-get($fonts, r);
+    text-align: center;
+    font-size: 14px;
+    color: #767676;
+  }
+  &SImage {
+    margin-bottom: 8px;
+    width: 100%;
+    height: 200px;
+  }
+
+  &SText {
+    padding: 0 10px;
+    font-family: map-get($fonts, m);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+  &STextSecond {
+    font-family: map-get($fonts, r);
+    text-align: center;
+    font-size: 14px;
+    color: #767676;
+  }
+}

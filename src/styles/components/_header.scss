@@ -1,0 +1,53 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: color(background-secondary);
+  z-index: 100;
+  @include minMd() {
+    padding: 20px 15px;
+  }
+  &Wr {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &LogoWr {
+    display: flex;
+    align-items: flex-end;
+  }
+  &LogoText {
+    font-family: map-get($fonts, b);
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: color(background-accent);
+    @include minMd() {
+      font-size: 20px;
+    }
+  }
+  &NavWr {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  &NavBtn {
+    margin-right: 10px;
+    padding: 2px 0;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &NavBtnText {
+    font-family: map-get($fonts, b);
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;
+    color: color(background-accent);
+    @include minMd() {
+      font-size: 14px;
+    }
+  }
+}
